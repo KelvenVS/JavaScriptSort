@@ -1,24 +1,22 @@
 [
-{   "title": "JavaScript",
-    "cost": 25
-},
-    {"title": "PHP",
-    "cost":15
-},
-{
-    "title": "Java",
-    "cost":30
-},
-{
-    "title": "Elixir",
-    "cost": 50
-},
-{
-    "title": "Go",
-    "cost": 45
-},
-{
-    "title": "Python",
-    "cost": 20
-}
-]
+    {
+    "title": "PHP",
+    "cost": "15"
+    },
+    {
+      "title": "JavaScript",
+      "cost": "25"
+    },
+    {
+      "title": "Java",
+      "cost": "30"
+    },
+    {
+      "title": "Go",
+      "cost": "45"
+    },
+    {
+      "title": "Elixir",
+      "cost": "50"
+    }
+  ]
