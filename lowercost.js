@@ -1,4 +1,4 @@
-const arrProducts = require("./listBook.json");
+const arrProducts = require("./publisherFolha.json");
 //console.log(books);
 
 //                 any array
