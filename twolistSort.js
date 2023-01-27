@@ -1,12 +1,7 @@
-// const { booksFolha, booksGalho,} = require("./publisherFolha.json", "./publisherGalho");
-
-// const booksFolha = require("./publisherFolha.json");
-// const booksGalho = require("./publisherGalho.json");
-
-const { edFolha, edGalho } = require("./arraysExample.js");
+const booksFolha = require("./publisherFolha.json");
+const booksGalho = require("./publisherGalho.json");
 
 function arrayBooks(list1, list2) {
-
   let listFinal = [];
   let positionCurrentList1 = 0;
   let positionCurrentList2 = 0;
@@ -15,20 +10,32 @@ function arrayBooks(list1, list2) {
   while (positionCurrentList1 < list1.length && positionCurrentList2 < list2.length) {
     let prodCurrentList1 = list1[positionCurrentList1];
     let prodCurrentList2 = list2[positionCurrentList2];
-    console.log(`comparando ${positionCurrentList1.titulo} com ${positionCurrentList2.titulo}`);
+    console.log(`comparando ${list1[positionCurrentList1].title} com ${list2[positionCurrentList2].title}`);
 
-    if (positionCurrentList1.preco < positionCurrentList2.preco) {
+    if (prodCurrentList1.cost < prodCurrentList2.cost) {
+    positionCurrentList1++;
       listFinal[current] = prodCurrentList1;
-      positionCurrentList1++;
     } else {
-      listFinal[current] = prodCurrentList2;
       positionCurrentList2++;
+      listFinal[current] = prodCurrentList2;
     }
+    current++;
+  }
+
+  while (positionCurrentList1 < list1.length) {
+    listFinal[current] = list1[positionCurrentList1];
+    positionCurrentList1++;
+    current++;
+  }
+  while (positionCurrentList2 < list2.length) {
+    listFinal[current] = list2[positionCurrentList2];
+    positionCurrentList2++;
     current++;
   }
 
   return listFinal;
 }
 
-console.log(arrayBooks(edFolha, edGalho));
-// console.log(arrayBooks(booksFolha, booksGalho));
+console.log(arrayBooks(booksGalho,booksFolha,));
+
+//swap-only algorithm, the list was already sorted
