@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Python",
+      "cost": "20"
+    },
+    {
+      "title": "Rust",
+      "cost": "22"
+    },
+    {
+      "title": "Ruby",
+      "cost": "28"
+    },
+    {
+      "title": "C#",
+      "cost": "33"
+    },
+    {
+      "title": "C++",
+      "cost": "35"
+    },
+    {
+      "title": "Scala",
+      "cost": "40"
+    }
+  ]
