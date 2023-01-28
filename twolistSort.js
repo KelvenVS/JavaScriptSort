@@ -39,3 +39,5 @@ function arrayBooks(list1, list2) {
 console.log(arrayBooks(booksGalho,booksFolha,));
 
 //swap-only algorithm, the list was already sorted
+
+// The values ​​stored in the variables positionCurrentList1, positionCurrentList2, prodCurrentList1 and prodCurrentList2 are, respectively: numerical value referring to the current index of the first list (received by the function via parameter); numerical value referring to the current index of the second list (received by the function via parameter); an object with title and price properties, referring to the element contained in the current index of the first list; an object with title and price properties, referring to the element contained in the current index of the second list.
