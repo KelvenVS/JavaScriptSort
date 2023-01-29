@@ -1,0 +1,46 @@
+[
+    {
+      "titulo": "PHP",
+      "cost": 15
+    },
+    {
+      "titulo": "Python",
+      "cost": 20
+    },
+    {
+      "titulo": "Rust",
+      "cost": 22
+    },
+    {
+      "titulo": "JavaScript",
+      "cost": 25
+    },
+    {
+      "titulo": "Ruby",
+      "cost": 28
+    },
+    {
+      "titulo": "Java",
+      "cost": 30
+    },
+    {
+      "titulo": "C#",
+      "cost": 33
+    },
+    {
+      "titulo": "C++",
+      "cost": 35
+    },
+    {
+      "titulo": "Scala",
+      "cost": 40
+    },
+    {
+      "titulo": "Go",
+      "cost": 45
+    },
+    {
+      "titulo": "Elixir",
+      "cost": 50
+    }
+  ]
