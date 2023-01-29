@@ -47,3 +47,5 @@ function centerOfArray(array) {
 
 // console.log(findSmall(books[2], books));
 console.log(centerOfArray(books));
+
+module.exports = swapSpot;
